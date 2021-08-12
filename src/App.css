@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  background: #4f4789;
+  max-width: 90%;
+}
+
+#root{
+  background: #4f4789;
+  height: 100vh;
+}
+

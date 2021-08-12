@@ -1,0 +1,37 @@
+.modal{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.192);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-inner{
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: whitesmoke;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.close-btn {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.post-title, .post-body{
+  width: 90%;
+}
