@@ -17,8 +17,8 @@ function Modal({
         <h3>{userName}`s posts</h3>
         {posts && posts.map((post) =>
           <div className='post' key={post.id}>
-            <div className="post-title">{post.title}</div>
-            <div className="post-body">{post.body}</div>
+            <div className="post-title"><span>Title:</span> {post.title}</div>
+            <div className="post-body"><span>Post  info:</span> {post.body}</div> <br />
           </div>
         )}
         <button className="close-btn" onClick={()=> setTrigger(false)}>Close</button>

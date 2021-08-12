@@ -15,7 +15,7 @@
   padding: 32px;
   width: 100%;
   max-width: 640px;
-  background-color: whitesmoke;
+  background-color: #d6e4f0;
   max-height: 80vh;
   overflow-y: scroll;
 }
@@ -30,8 +30,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
-.post-title, .post-body{
-  width: 90%;
+
+span{
+  font-weight: bold;
 }
